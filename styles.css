@@ -1,0 +1,32 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Box model demo */
+.box-model-demo .box {
+    background-color: #ffffff;
+    border: 5px solid #007BFF; /* border */
+    padding: 20px;              /* padding */
+    margin: 30px auto;          /* margin */
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #333;
+}
